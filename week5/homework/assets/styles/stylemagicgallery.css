@@ -1,0 +1,186 @@
+body  {
+    background-color: rgb(244, 193, 232);
+}
+
+header {
+    width:  100%;
+    height: 100px;
+    background-color: rgb(246, 143, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h2 {
+margin-left: 450px;
+}
+
+.description {
+    margin: 20px;
+}
+
+.description:hover {
+    background-color: lemonchiffon;
+}
+
+
+.mainpicturewrap {
+width: 100%;
+}
+
+h3 {
+    margin-left: 590px;
+}
+
+.mainpicture {
+    width: 500 px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 450px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.picturewrap1  {
+    width: 50%;
+    height: 500px;
+}
+
+h4 {
+    font-style: italic;
+    font-size: larger;
+    margin-left: 50px;
+}
+
+.picture1 {
+    width: 80%;
+    height:350px;
+    border-radius: 15px;
+}
+
+.picturewrap2  {
+    width: 50%;
+    height: 500px;
+}
+
+.picture2 {
+    width: 80%;
+    height:350px;
+    border-radius: 150px;
+}
+
+.picturewrap3  {
+    width: 50%;
+    height: 500px;
+}
+
+.picture3 {
+    width: 80%;
+    height:350px;
+    border-radius: 15px;
+}
+
+.pictures2 {
+    display: flex;
+    flex-direction: column ;
+   /* justify-content: space-around;  */
+    width: 100%;
+    height: 1500px;
+}
+
+.picturewrap2_1  {
+    width: 50%;
+    height: 500px;
+}
+.picture2_1 {
+    width: 80%;
+    height:350px;
+    border-radius: 250px;
+}
+
+.picturewrap2_2  {
+    width: 50%;
+    height: 500px;
+    align-self: flex-end;
+}
+.picture2_2 {
+    width: 100%;
+    height:350px;
+    border-radius: 250px;
+}
+
+.picturewrap2_3  {
+    width: 50%;
+    height: 500px;
+}
+.picture2_3 {
+    width: 80%;
+    height:350px;
+    border-radius: 250px;
+    
+}
+
+
+/* footer {
+    width:  100%;
+    height: 100px;
+    background-color: rgb(245, 170, 171);
+    padding: 50px 20px 20px 15px;
+} */
+
+.animationwrap {
+    width: 100%;
+
+    height:350px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+
+
+.animationwrap:hover {
+    background-color: rgb(212, 245, 187);
+}
+
+.animationwrap1 {
+    width: 50%;
+    height: 500px;
+    
+}
+.animationwrap2 {
+    width: 50%;
+    height: 500px;
+    
+}
+
+.animation1 {
+    width: 80%;
+    height:350px;
+    border-radius: 25px;
+}
+
+.animation2 {
+    width: 80%;
+    height:350px;
+    border-radius: 25px;
+}
